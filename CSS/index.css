@@ -14,8 +14,8 @@ body {
   min-height: 3.125rem;
   background-color: lightgray;
   padding: 1.563rem;
-  text-align: left;
 }
+
 .footer{
   background-color: #1f1f1f;
   color: white;
@@ -24,6 +24,7 @@ body {
   background: #1f1f1f;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 a{
   text-decoration: none;
   color: black;
@@ -39,6 +40,7 @@ ul {
 }
 
 li {
+  display: inline-flex;
   float: left;
   font-size: xx-large;
 }
@@ -46,7 +48,7 @@ li {
 li a, .dropbtn {
   display: inline-block;
   color: black;
-  text-align: center;
+  text-align: right;
   padding: 0.875rem 1.875rem;
   text-decoration: none;
 }
@@ -58,10 +60,6 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: #77C3EC;
-}
-
-li.dropdown {
-  display: inline-block;
 }
 
 .helegreien{
@@ -125,17 +123,17 @@ li.dropdown {
   margin-top: -9.75rem;
   display: flex;
   flex-direction: center;
+  object-fit: contain;
+  max-width: 85%;
 }
 
 .h1it{
   display: none;
 }
 
-@media only screen and (max-width: 1000px){
-html{
-  font-size: 13px;
-}
-
+.email{
+ text-decoration: none; 
+ color: white;
 }
 
 @media only screen and (max-width: 600px){
@@ -147,15 +145,18 @@ html{
 }
 
 .container1 {
-display: none;
+  object-fit: contain;
+  max-width: 85%;
+  max-height: 50px;
+  max-width: 250px;
 }
 
-.container{
+.container {
   margin-top: 50px;
 }
 
-.h1it {
-  display: none;
+.h1 {
+  font-size: small;
 }
 
 .p {

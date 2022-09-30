@@ -53,12 +53,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-.ja{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  float: left;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover{
   background-color: #77C3EC;
 }
 
@@ -106,7 +101,6 @@ li a:hover, .dropdown:hover .dropbtn {
   padding-bottom: 3.125rem;
 }
 
-
 .qq{
   margin-left: 21.875rem;
   line-height: 2.5rem;
@@ -127,10 +121,6 @@ li a:hover, .dropdown:hover .dropbtn {
   max-width: 85%;
 }
 
-.h1it{
-  display: none;
-}
-
 .email{
  text-decoration: none; 
  color: white;
@@ -142,12 +132,11 @@ li a:hover, .dropdown:hover .dropbtn {
   max-width: 85%;
   max-height: 140px;
   max-width: 250px;
+  margin-top:  1px;
 }
 
 .container1 {
-  object-fit: contain;
-  max-width: 85%;
-  max-height: 50px;
+  max-height: 80px;
   max-width: 250px;
 }
 
@@ -157,9 +146,20 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .h1 {
   font-size: small;
+  margin-left: -30px;
 }
 
-.p {
+.p{
+  font-size: x-small;
+  margin-left: -30px;
+  padding-bottom: 100px;
+}
+
+.tekst{
+  line-height: 15px;
+}
+
+.foto {
   display: none;
 }
 
@@ -174,10 +174,6 @@ li a:hover, .dropdown:hover .dropbtn {
   margin-top: -68px;
   font-size: xx-small;
   line-height: 20px;
-}
-
-.foto{
-  display: none;
 }
 
 }

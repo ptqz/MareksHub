@@ -1,9 +1,16 @@
 
-body{
-    margin: 0%;
+body {
+  margin: 0%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../Photos/Group\ 3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
-.flex{
+.helegreien{
     display: flex;
     flex-direction: column;
 }
@@ -16,50 +23,30 @@ body{
 }
 a{
   text-decoration: none;
-  color: black;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-body {
-  background-image: url('../Photos/Group\ 3.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-}
-
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: lightgray;
-  width: 100%;
 }
 
 li {
   float: left;
-  font-size: xx-large;
 }
 
-li a, .dropbtn {
-  display: inline-block;
-  color: black;
+li a {
+  display: block;
   text-align: center;
-  padding: 0.875rem 1.875rem;
+  padding: 14px 24px;
   text-decoration: none;
 }
 
-.ja{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  float: left;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #77C3EC;
-}
-
-li.dropdown {
-  display: inline-block;
+li a:hover {
+  background-color: gray;
 }
 
 .top{
@@ -123,4 +110,9 @@ li.dropdown {
   margin-top: -4.75rem;
   display: flex;
   flex-direction: center;
+}
+
+.email{
+ text-decoration: none; 
+ color: white;
 }

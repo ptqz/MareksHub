@@ -8,6 +8,11 @@ body {
   background-size: 100%;
 }
 
+.helegreien{
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   min-height: 3.125rem;
   background-color: lightgray;
@@ -152,22 +157,19 @@ li a:hover {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.qq{
-  margin-left: 21.875rem;
-  line-height: 2.5rem;
+.qq1{
+  margin-left: 50px;
 }
 
-.qq1{
-  margin-left: 31.25rem;
-  margin-top: -8.5rem;
-  line-height: 2.5rem;
+.fdiv{
+  display: inline-flex;
+  margin-left: 30%;
+  line-height: 40px;
 }
 
 .foto{
-  padding-left: 61.25rem;
-  margin-top: -9.75rem;
-  display: flex;
-  flex-direction: center;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 
 .email{

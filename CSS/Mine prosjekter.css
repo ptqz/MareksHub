@@ -56,18 +56,19 @@ li a:hover {
 
 .top1{
     margin-top: 3.125rem;
-    width: 81.25rem;
-    height: 12.5rem;
+    width: 70.25rem;
+    height: 15.5rem;
     background-color: #fafafa;
     border-radius: 0.625rem;
 }
 
 .top2{
     margin-top: 3.125rem;
-    width: 68.75rem;
-    height: 9.375rem;
+    width: 60.75rem;
+    height: 12.375rem;
     background-color: #fafafa;
     border-radius: 0.625rem;
+    margin-bottom: 50px;
 }
 
 .tekst{
@@ -83,34 +84,84 @@ li a:hover {
 .footer{
   background-color: #1f1f1f;
   color: white;
-  padding-top: 0.625rem;
-  margin-top: 3.125rem;
-  height: 13.125;
-  margin-bottom: -1.25rem;
+  margin-top: auto;
+  padding: 1rem 1rem;
+  background: #1f1f1f;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-  
-.qq{
-  margin-left: 21.875rem;
-  line-height: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 .qq1{
-  margin-left: 31.25rem;
-  margin-top: -8.5rem;
-  line-height: 2.5rem;
+  margin-left: 50px;
+}
+
+.fdiv{
+  display: inline-flex;
+  margin-left: 30%;
+  line-height: 40px;
 }
 
 .foto{
-  padding-left: 31.25rem;
-  margin-top: -4.75rem;
-  display: flex;
-  flex-direction: center;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 
 .email{
  text-decoration: none; 
  color: white;
+}
+
+@media only screen and (max-width: 1200px){
+
+.foto {
+  display: none;
+}
+
+.top1 {
+  width: 750px;
+  height: 270px;
+}
+
+.top2 {
+  width: 650px;
+}
+
+.fdiv {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+}
+
+@media only screen and (max-width: 1000px){
+
+.top1 {
+  width: 650px;
+  height: 300px;
+}
+
+.top2 {
+  width: 540px;
+  height: 240px;
+}
+  
+}
+
+@media only screen and (max-width: 800px){
+
+
+
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+
+
+
+
 }

@@ -68,6 +68,7 @@ li a:hover {
   height: 28.125rem;
   background-color: #fafafa;
   border-radius: 0.625rem;
+  margin-bottom: 50px;
 }
 
 .tekst{
@@ -83,31 +84,25 @@ li a:hover {
 .footer{
   background-color: #1f1f1f;
   color: white;
-  padding-top: 0.625rem;
-  margin-top: 3.125rem;
-  height: 13.125;
-  margin-bottom: -1.25rem;
+  margin-top: auto;
+  padding: 1rem 1rem;
+  background: #1f1f1f;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-  
-.qq{
-  margin-left: 21.875rem;
-  line-height: 2.5rem;
 }
 
 .qq1{
-  margin-left: 31.25rem;
-  margin-top: -8.5rem;
-  line-height: 2.5rem;
+  margin-left: 50px;
+}
+
+.fdiv{
+  display: inline-flex;
+  margin-left: 30%;
+  line-height: 40px;
 }
 
 .foto{
-  padding-left: 31.25rem;
-  margin-top: -4.75rem;
-  display: flex;
-  flex-direction: center;
+  margin-top: 40px;
+  margin-left: 100px;
 }
  
 .email{

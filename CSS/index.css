@@ -1,3 +1,6 @@
+
+  /* Body */
+
 body {
   margin: 0%;
   display: flex;
@@ -8,21 +11,25 @@ body {
   background-size: 100%;
 }
 
-.header {
-  min-height: 3.125rem;
-  background-color: lightgray;
-  padding: 1.563rem;
-}
+  /* Link Texten */
 
 a{
   text-decoration: none;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+/* Headeren */
+
+.header {
+  min-height: 3.125rem;
+  background-color: lightgray;
+  padding: 1.563rem;
+}
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 0rem;
+  margin: 0rem;
   overflow: hidden;
   background-color: lightgray;
 }
@@ -42,10 +49,7 @@ li a:hover {
   background-color: gray;
 }
 
-.helegreien{
-  display: flex;
-  flex-direction: column;
-}
+  /* Hovudbildet */
 
 .con{
   height: 40.625rem;
@@ -64,12 +68,22 @@ li a:hover {
   border-radius: 1.25rem;
 }
 
+  /* Små boxer */
+
 .container1{
   width: 68.75rem;
   height: 9.375rem;
   background-color: #fafafa;
   border-radius: 0.625rem;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3.125rem;
+}
+
+  /* Texen i små boxer */
 
 .tekst{
   font-size: x-large;
@@ -78,16 +92,16 @@ li a:hover {
   margin-bottom: 0.313rem;
   line-height: 1.875rem;
   color: #23395d;
-  }
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3.125rem;
 }
+
+
+  /* Footeren */
 
 .footer{
   background-color: #1f1f1f;
+
+  /* Text Color */
+
   color: white;
   margin-top: auto;
   padding: 1rem 1rem;
@@ -95,11 +109,11 @@ li a:hover {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.qq1{
+.svar{
   margin-left: 50px;
 }
 
-.fdiv{
+.ftext{
   display: inline-flex;
   margin-left: 30%;
   line-height: 40px;
@@ -115,8 +129,190 @@ li a:hover {
  color: white;
 }
 
+  /* Overlay text på icons */
+
+  .tooltip {
+  position: relative;
+  display: inline-block;
+}  
+
+.tooltiptext {
+  opacity: 80%;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color:  white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Posisjon av Texten */
+
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 40px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+  /* Mine Prosjekter Html Boxer */
+
+.mpplacement{
+  margin-left: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #23395d;
+}
+
+.mptopbox{
+  margin-top: 3.125rem;
+  width: 70.25rem;
+  height: 15.5rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+}
+
+.mpbotbox{
+  margin-top: 3.125rem;
+  width: 60.75rem;
+  height: 12.375rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+  margin-bottom: 50px;
+}
+
+.mptekst{
+  font-size: x-large;
+  margin-left: 2.5rem;
+  padding-top: 0.063rem;
+  margin-bottom: 0.313rem;
+  line-height: 1.875rem;
+  color: #23395d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  /* ITM Html Boxer */
+
+.itmplacement{
+  margin-left: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #23395d;
+}
+
+.itmtopbox{
+  margin-top: 3.125rem;
+  width: 81.25rem;
+  height: 6.25rem;
+  background-color: #fafafa;
+  border-radius: 1.188rem;
+}
+
+.itmbox1{
+  margin-top: 3.125rem;
+  width: 68.75rem;
+  height: 28.125rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+  margin-bottom: 50px;
+}
+
+.itmbox2{
+  width: 68.75rem;
+  height: 25.125rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+  margin-bottom: 50px;
+}
+
+.itmtekst{
+  font-size: x-large;
+  margin-left: 2.5rem;
+  padding-top: 0.063rem;
+  margin-bottom: 0.313rem;
+  line-height: 1.975rem;
+  color: #23395d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /* AM Html Boxer */
+
+.amtopplacement{
+  margin-left: auto;
+  margin-right: auto;
+  color: #23395d;
+}
+
+.amtopbox{
+  margin-top: 3.125rem;
+  width: 81.25rem;
+  height: 6.25rem;
+  background-color: #fafafa;
+  border-radius: 1.188rem;
+}
+
+.amalieskram{
+  margin-top: 3.125rem;
+  width: 68.75rem;
+  height: 25.825rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+  margin-bottom: 50px;
+}
+
+.adoarena{
+  width: 68.75rem;
+  height: 21.125rem;
+  background-color: #fafafa;
+  border-radius: 0.625rem;
+  margin-bottom: 50px;
+}
+
+.amtekst{
+  font-size: x-large;
+  margin-left: 2.5rem;
+  padding-top: 0.063rem;
+  margin-bottom: 0.313rem;
+  line-height: 2.1rem;
+  color: #23395d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  /* 4Bilder Html Boxer */
+
+.box1{
+  height: 700px;
+  width: 800px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.bp1{
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.pfoto1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+  /* Koden for at nettsiden skal fungere på andre enheter */
+
 @media only screen and (max-width: 600px){
-.bildet, .con{
+
+  .bildet, .con{
   object-fit: contain;
   max-width: 85%;
   max-height: 140px;

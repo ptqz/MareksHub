@@ -693,7 +693,16 @@ li a:hover {
 }
 
 .foto{
-  display: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+}
+
+.img{
+  max-width: 80%;
+  margin-left: -100px;
+  min-height: max-content;
+  max-width: min-content;
 }
 
   /* 4 Bilder Historie */
@@ -844,10 +853,6 @@ li a:hover {
   font-size: x-small;
 }
 
-.foto{
-  display: none;
-}
-
   /* 4 Bilder Historie */
 
 .box1{
@@ -857,6 +862,178 @@ li a:hover {
 
 .bp1{
   max-height: 430px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+  /* Home */
+
+
+.bildet{
+  max-width: 90%;
+}
+
+.con{
+  width: 60%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.container1{
+  max-width:  220px;
+  height: 70px;
+}
+
+.containeritm{
+  max-width:  220px;
+  height: 100px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.h1itm{
+  line-height: 25px;
+  font-size: x-large;
+  margin-left: -25px;
+}
+
+.h1{
+  margin-left: -25px;
+  font-size: x-large;
+}
+
+.p{
+  display: none;
+}
+
+  /* Mp */
+  
+.mptopbox{
+  max-width: 200px;
+  height: 300px;
+  padding-right: 20px;
+}
+
+.mpbotbox{
+  max-width: 190px;
+  height: 230px;
+}
+
+.mpbotbox1{
+  max-width: 190px;
+  margin-top: -1px;
+  height: 200px;
+}
+
+.mph1{
+  font-size: x-large;
+  padding-right: 30px;
+}
+
+.mpp{
+  font-size: small;
+  line-height: normal;
+  padding-right: 20px;
+}
+
+  /* IM */
+
+.itmtopbox{
+  max-width: 250px;
+  height: 110px;
+  margin-top: 20px;
+}
+
+.itmoverskrift{
+  margin-left: 5px;
+}
+
+.itmbox1{
+  height: 650px;
+  width: 190px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.itmbox2{
+  height: 380px;
+  width: 190px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.itmh1{
+  font-size: x-large;
+  padding-right: 30px;
+  line-height: normal;
+}
+
+.itmp{
+  font-size: small;
+  line-height: normal;
+  padding-right: 20px;
+}
+
+  /* AM */
+
+.amtopbox{
+  max-width: 250px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+.amalieskram{
+  max-width: 200px;
+  height: 520px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.adoarena{
+  max-width: 190px;
+  height: 560px;
+  padding-right: 20px;
+}
+
+.amh1{
+  font-size: x-large;
+  line-height: normal;
+  margin-left: -20px;
+}
+
+.amp{
+  font-size: small;
+  line-height: normal;
+  padding-right: 20px;
+}
+ 
+  /* Footeren */
+
+.ftext{
+  font-size: x-small;
+}
+
+.img{
+  height: 30%;
+  width: 30%;
+}
+
+  /* 4 Bilder Historie */
+
+.box1{
+  height: 270px;
+  width: 250px;
+}
+
+.bp1{
+  margin-top: 35px;
+  max-height: 200px;
 }
 
 }

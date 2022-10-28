@@ -98,6 +98,14 @@ li a:hover {
 
   /* Footeren */
 
+.foto{
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
 .footer{
   background-color: #1f1f1f;
 
@@ -117,11 +125,6 @@ li a:hover {
   display: flex;
   justify-content: center;
   line-height: 40px;
-}
-
-.foto{
-  margin-top: 40px;
-  margin-left: 100px;
 }
 
 .email{
@@ -697,19 +700,7 @@ li a:hover {
 
 .ftext{
   font-size: x-small;
-}
-
-.foto{
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 50px;
-}
-
-.img{
-  max-width: 80%;
-  margin-left: -100px;
-  min-height: max-content;
-  max-width: min-content;
+  line-height: 30px;
 }
 
   /* 4 Bilder Historie */
@@ -1024,7 +1015,13 @@ li a:hover {
   /* Footeren */
 
 .ftext{
-  font-size: x-small;
+  font-size: xx-small;
+  line-height: 20px;
+}
+
+.foto{
+  max-width: 40px;
+  margin-top: 10px;
 }
 
   /* 4 Bilder Historie */
@@ -1207,7 +1204,14 @@ li a:hover {
   /* Footeren */
 
 .ftext{
-  font-size: x-small;
+  font-size: xx-small;
+  line-height: 20px;
+}
+
+.foto{
+  max-width: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
   /* 4 Bilder Historie */

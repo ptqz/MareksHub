@@ -477,7 +477,7 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 90%;
+  max-width: 98%;
 }
 
 .con{
@@ -703,11 +703,14 @@ li a:hover {
   line-height: 30px;
 }
 
+
+
   /* 4 Bilder Historie */
 
 .box1{
   height: 530px;
   width: 550px;
+  margin-bottom: 200px;
 }
 
 .bp1{
@@ -855,12 +858,13 @@ li a:hover {
   /* 4 Bilder Historie */
 
 .box1{
-  height: 530px;
-  width: 550px;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 300px;
 }
 
 .bp1{
-  max-height: 430px;
+  max-height: 300px;
 }
 
 }

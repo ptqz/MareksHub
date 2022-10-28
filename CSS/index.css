@@ -315,12 +315,15 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 900px;
+  max-width: 90%;
 }
 
 .con{
-  width: 950px;
-  height: 550px;
+  width: 60%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 .container1, .containeritm {
@@ -392,14 +395,15 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 780px;
+  max-width: 90%;
 }
 
 .con{
-  width: 800px;
-  height: 480px;
+  width: 60%;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .container1, .containeritm {
@@ -470,14 +474,15 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 650px;
+  max-width: 90%;
 }
 
 .con{
-  width: 670px;
-  height: 400px;
+  width: 60%;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .container1{
@@ -566,14 +571,15 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 500px;
+  max-width: 90%;
 }
 
 .con{
-  width: 520px;
-  height: 310px;
+  width: 60%;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .container1{
@@ -724,14 +730,15 @@ li a:hover {
   /* Home */
 
 .bildet{
-  max-width: 390px;
+  max-width: 90%;
 }
 
 .con{
-  width: 400px;
-  height: 250px;
+  width: 60%;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .container1{
@@ -1020,11 +1027,6 @@ li a:hover {
   font-size: x-small;
 }
 
-.img{
-  height: 30%;
-  width: 30%;
-}
-
   /* 4 Bilder Historie */
 
 .box1{
@@ -1035,6 +1037,189 @@ li a:hover {
 .bp1{
   margin-top: 35px;
   max-height: 200px;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+
+  /* Home */
+
+
+.bildet{
+  max-width: 90%;
+}
+
+.con{
+  width: 60%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.container1{
+  max-width:  150px;
+  height: 70px;
+}
+
+.containeritm{
+  max-width:  150px;
+  height: 100px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.h1itm{
+  line-height: 25px;
+  font-size: medium;
+  margin-left: -25px;
+}
+
+.h1{
+  margin-left: -25px;
+  font-size: medium;
+}
+
+.p{
+  display: none;
+}
+
+  /* Mp */
+  
+.mptopbox{
+  width: 80%;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.mpbotbox{
+  width: 80%;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.mpbotbox1{
+  width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mph1{
+  font-size: large;
+  padding-right: 30px;
+  margin-left: -15px;
+}
+
+.mpp{
+  font-size: small;
+  line-height: normal;
+  padding-right: 20px;
+  margin-left: -15px;
+}
+
+  /* IM */
+
+.itmtopbox{
+  width: 80%;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.itmoverskrift{
+  margin-left: 5px;
+}
+
+.itmbox1{
+  width: 50%;
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.itmbox2{
+  width: 50%;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itmh1{
+  font-size: x-large;
+  padding-right: 30px;
+  line-height: normal;
+}
+
+.itmp{
+  font-size: x-small;
+  line-height: normal;
+  padding-right: 20px;
+}
+
+  /* AM */
+
+.amtopbox{
+  width: 80%;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.amalieskram{
+  width: 70%;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.adoarena{
+  width: 70%;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.amh1{
+  font-size: x-large;
+  line-height: normal;
+  margin-left: -20px;
+}
+
+.amp{
+  font-size: x-small;
+  line-height: normal;
+  padding-right: 10px;
+  margin-left: -20px;
+}
+ 
+  /* Footeren */
+
+.ftext{
+  font-size: x-small;
+}
+
+  /* 4 Bilder Historie */
+
+.box1{
+  height: 210px;
+  width: 200px;
+}
+
+.bp1{
+  margin-top: 35px;
+  max-height: 140px;
 }
 
 }

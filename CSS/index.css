@@ -1,5 +1,5 @@
 
-  /* Body */
+/* Body */
 
 body {
   margin: 0%;
@@ -49,6 +49,8 @@ li a {
 li a:hover {
   background-color: gray;
 }
+
+  /* Hovudside */
 
   /* Hovudbildet */
 
@@ -136,7 +138,6 @@ li a:hover {
 
 .tooltip {
   position: relative;
-  display: inline-block;
 }  
 
 .tooltiptext {

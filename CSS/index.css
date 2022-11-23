@@ -312,6 +312,34 @@ li a:hover {
   align-content: center;
 }
 
+/* Gym */
+
+.box2{
+  height: 1000px;
+  width: 800px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.bp2{
+  height: 900px;
+  width: 600px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.pfoto2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
   /* Koden for at nettsiden skal fungere på andre enheter */
 
 @media only screen and (max-width: 1600px){

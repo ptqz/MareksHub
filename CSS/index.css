@@ -340,6 +340,23 @@ li a:hover {
   align-content: center;
 }
 
+  /* JS */
+
+.jsbox{
+  background-color: lightgray;
+  width: 200px;
+  height: 110px;
+
+  border-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+  
+
+
   /* Koden for at nettsiden skal fungere på andre enheter */
 
 @media only screen and (max-width: 1600px){

@@ -1,0 +1,12 @@
+.overview{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+    font-size: xx-large;
+}

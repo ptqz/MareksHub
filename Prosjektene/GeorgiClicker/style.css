@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray !important;
+}
+
+hr{
+    width: 500px;
+    color: #C4A484;
+    height: 2px;
+}
+
+.overskrift{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 790px;
+    font-size: 50px;
+}
+
+.georgipic{
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 800px;
+}
+
+.button{
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 870px;
+}
+
+.grandma{
+    height: 200px;
+    margin-left: 780px;
+    margin-top: 50px;
+}
+
+.counter{
+    margin-left: 950px;
+}

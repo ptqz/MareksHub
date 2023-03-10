@@ -1,7 +1,7 @@
-// Run fucntion da jeg opner siden
-
+  //starter funsjon da nettsiden laster opp
 window.onload = function() {
-  // Variabler
+
+  // Henter elementene med ID-ene "num1", "num2", "num3", osv.
   const num1 = document.getElementById("num1");
   const num2 = document.getElementById("num2");
   const num3 = document.getElementById("num3");
@@ -10,11 +10,15 @@ window.onload = function() {
   const num6 = document.getElementById("num6");
   const num7 = document.getElementById("num7");
   const num8 = document.getElementById("num8");
+ 
+  // Henter knappen med ID-en "calculate" og resultat-elementet med ID-en "result"
   const calculate = document.getElementById("calculate");
   const result = document.getElementById("result");
 
-  // Fucntion som regner ut gjennomsnitten av tallene
+  // Legger til en klikk-lytter på knappen "calculate"
   document.getElementById("calculate").onclick = function() {
+
+    // Regner ut gjennomsnittet av tallene som brukeren har skrevet inn
     const average =
       (Number(num1.value) +
         Number(num2.value) +
@@ -24,6 +28,8 @@ window.onload = function() {
         Number(num6.value) +
         Number(num7.value) +
         Number(num8.value)) / 8;
-    result.textContent = "Gjennomsnitts karakteren din er: " + average;
+    
+        // Setter resultatet inn i resultat-elementet på siden
+        result.textContent = "Gjennomsnitts karakteren din er: " + average;
   };
 };

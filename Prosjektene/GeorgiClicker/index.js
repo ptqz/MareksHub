@@ -1,7 +1,10 @@
+
+// Variables
 let counter = 0;
 let clicksPerSecond = 0;
 let upgradeCost = 100;
 
+// Function som øker georgi counter
 function incrementCounter() {
   counter++;
   document.getElementById("counter").innerHTML = counter;
@@ -15,7 +18,6 @@ function buyUpgrade() {
     clicksPerSecond++;
     document.getElementById("counter").innerHTML = counter;
     document.getElementById("upgrade-button").innerHTML = "Grandma bought (+1 click/s)";
-    document.getElementById("upgrade-button").disabled = true;
     document.getElementById("upgrade-image").style.display = "block";
     setInterval(autoIncrement, 1000);
   } else {

@@ -1,4 +1,7 @@
+// Run fucntion da jeg opner siden
+
 window.onload = function() {
+  // Variabler
   const num1 = document.getElementById("num1");
   const num2 = document.getElementById("num2");
   const num3 = document.getElementById("num3");
@@ -10,6 +13,7 @@ window.onload = function() {
   const calculate = document.getElementById("calculate");
   const result = document.getElementById("result");
 
+  // Fucntion som regner ut gjennomsnitten av tallene
   document.getElementById("calculate").onclick = function() {
     const average =
       (Number(num1.value) +

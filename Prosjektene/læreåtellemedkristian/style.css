@@ -1,0 +1,43 @@
+/* Stiler for teller-div-en */
+#count {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Endrer bakgrunnsfargen på teller-div-en når den blir holdt over med musepekeren */
+  #count:hover {
+    background-color: #E0E0E0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+  }
+
+  /* Stiler for body-elementet */
+  body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+  }
+
+  .count{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+  }
+
+  .tt1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E0E0E0;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5%;
+  }

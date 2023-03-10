@@ -1,3 +1,4 @@
+// 
 function updateClock() {
     const date = new Date();
     const dateString = date.toLocaleDateString();
